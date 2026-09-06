@@ -1,0 +1,230 @@
+{
+  "lead_time": {
+    "type": "number",
+    "min": 0.0,
+    "max": 477.929999999993,
+    "median": 69.0
+  },
+  "adr": {
+    "type": "number",
+    "min": 0.0,
+    "max": 275.0,
+    "median": 94.95
+  },
+  "total_nights": {
+    "type": "number",
+    "min": 0.0,
+    "max": 14.0,
+    "median": 3.0
+  },
+  "total_guests": {
+    "type": "number",
+    "min": 1.0,
+    "max": 4.0,
+    "median": 2.0
+  },
+  "adults": {
+    "type": "number",
+    "min": 0.0,
+    "max": 3.0,
+    "median": 2.0
+  },
+  "children": {
+    "type": "number",
+    "min": 0.0,
+    "max": 2.0,
+    "median": 0.0
+  },
+  "babies": {
+    "type": "number",
+    "min": 0.0,
+    "max": 1.0,
+    "median": 0.0
+  },
+  "stays_in_weekend_nights": {
+    "type": "number",
+    "min": 0.0,
+    "max": 4.0,
+    "median": 1.0
+  },
+  "stays_in_week_nights": {
+    "type": "number",
+    "min": 0.0,
+    "max": 10.0,
+    "median": 2.0
+  },
+  "previous_cancellations": {
+    "type": "number",
+    "min": 0.0,
+    "max": 1.0,
+    "median": 0.0
+  },
+  "previous_bookings_not_canceled": {
+    "type": "number",
+    "min": 0.0,
+    "max": 7.0,
+    "median": 0.0
+  },
+  "is_repeated_guest": {
+    "type": "number",
+    "min": 0.0,
+    "max": 1.0,
+    "median": 0.0
+  },
+  "required_car_parking_spaces": {
+    "type": "number",
+    "min": 0.0,
+    "max": 1.0,
+    "median": 0.0
+  },
+  "total_of_special_requests": {
+    "type": "number",
+    "min": 0.0,
+    "max": 3.0,
+    "median": 0.0
+  },
+  "arrival_date_week_number": {
+    "type": "number",
+    "min": 1.0,
+    "max": 53.0,
+    "median": 28.0
+  },
+  "hotel": {
+    "type": "category",
+    "choices": [
+      "City Hotel",
+      "Resort Hotel"
+    ],
+    "default": "City Hotel"
+  },
+  "arrival_date_month": {
+    "type": "category",
+    "choices": [
+      "August",
+      "July",
+      "May",
+      "October",
+      "April",
+      "June",
+      "September",
+      "March",
+      "February",
+      "November",
+      "December",
+      "January"
+    ],
+    "default": "August"
+  },
+  "meal": {
+    "type": "category",
+    "choices": [
+      "BB",
+      "HB",
+      "SC",
+      "Undefined",
+      "FB"
+    ],
+    "default": "BB"
+  },
+  "country": {
+    "type": "category",
+    "choices": [
+      "PRT",
+      "GBR",
+      "FRA",
+      "ESP",
+      "DEU",
+      "ITA",
+      "IRL",
+      "BEL",
+      "BRA",
+      "NLD",
+      "USA",
+      "CHE",
+      "CN",
+      "AUT",
+      "SWE"
+    ],
+    "default": "PRT"
+  },
+  "market_segment": {
+    "type": "category",
+    "choices": [
+      "Online TA",
+      "Offline TA/TO",
+      "Groups",
+      "Direct",
+      "Corporate",
+      "Complementary",
+      "Aviation",
+      "Undefined"
+    ],
+    "default": "Online TA"
+  },
+  "distribution_channel": {
+    "type": "category",
+    "choices": [
+      "TA/TO",
+      "Direct",
+      "Corporate",
+      "GDS",
+      "Undefined"
+    ],
+    "default": "TA/TO"
+  },
+  "reserved_room_type": {
+    "type": "category",
+    "choices": [
+      "A",
+      "D",
+      "E",
+      "F",
+      "G",
+      "B",
+      "C",
+      "H",
+      "L"
+    ],
+    "default": "A"
+  },
+  "deposit_type": {
+    "type": "category",
+    "choices": [
+      "No Deposit",
+      "Non Refund",
+      "Refundable"
+    ],
+    "default": "No Deposit"
+  },
+  "customer_type": {
+    "type": "category",
+    "choices": [
+      "Transient",
+      "Transient-Party",
+      "Contract",
+      "Group"
+    ],
+    "default": "Transient"
+  },
+  "agent": {
+    "type": "category",
+    "choices": [
+      "9",
+      "0",
+      "240",
+      "1",
+      "14",
+      "7",
+      "6",
+      "250",
+      "241",
+      "28",
+      "8",
+      "3",
+      "37",
+      "19",
+      "40"
+    ],
+    "default": "9"
+  }
+}

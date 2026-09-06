@@ -1,0 +1,107 @@
+{
+  "split": {
+    "train_years": [
+      2015,
+      2016
+    ],
+    "test_years": [
+      2017
+    ],
+    "n_train": 78589,
+    "n_test": 40619,
+    "train_cancel_rate": 0.3622,
+    "test_cancel_rate": 0.3874
+  },
+  "models": [
+    {
+      "model": "baseline (semua 'tidak batal')",
+      "roc_auc": 0.5,
+      "pr_auc": 0.3874,
+      "accuracy": 0.6126,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "brier": 0.3874,
+      "confusion": {
+        "tn": 24885,
+        "fp": 0,
+        "fn": 15734,
+        "tp": 0
+      }
+    },
+    {
+      "model": "logistic",
+      "roc_auc": 0.8715,
+      "pr_auc": 0.8229,
+      "accuracy": 0.7724,
+      "precision": 0.8022,
+      "recall": 0.5474,
+      "f1": 0.6507,
+      "brier": 0.1464,
+      "confusion": {
+        "tn": 22761,
+        "fp": 2124,
+        "fn": 7121,
+        "tp": 8613
+      }
+    },
+    {
+      "model": "tree",
+      "roc_auc": 0.8153,
+      "pr_auc": 0.7307,
+      "accuracy": 0.7498,
+      "precision": 0.6725,
+      "recall": 0.6902,
+      "f1": 0.6812,
+      "brier": 0.1642,
+      "confusion": {
+        "tn": 19597,
+        "fp": 5288,
+        "fn": 4875,
+        "tp": 10859
+      }
+    },
+    {
+      "model": "gboost",
+      "roc_auc": 0.8836,
+      "pr_auc": 0.8384,
+      "accuracy": 0.7965,
+      "precision": 0.8146,
+      "recall": 0.6146,
+      "f1": 0.7006,
+      "brier": 0.144,
+      "confusion": {
+        "tn": 22684,
+        "fp": 2201,
+        "fn": 6064,
+        "tp": 9670
+      }
+    }
+  ],
+  "calibration_gboost": {
+    "mean_predicted": [
+      0.0006,
+      0.0059,
+      0.0239,
+      0.0714,
+      0.137,
+      0.2199,
+      0.3517,
+      0.6265,
+      0.8427,
+      0.9998
+    ],
+    "fraction_positive": [
+      0.0012,
+      0.0098,
+      0.0805,
+      0.2046,
+      0.2821,
+      0.3873,
+      0.4771,
+      0.6819,
+      0.7521,
+      1.0
+    ]
+  }
+}

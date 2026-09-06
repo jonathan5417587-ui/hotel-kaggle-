@@ -1,0 +1,50 @@
+{
+  "history_months": 26,
+  "history_range": [
+    "2015-07-01",
+    "2017-08-01"
+  ],
+  "horizon_steps": 16,
+  "backtest_mape_pct": {
+    "bookings": {
+      "holt_winters": 26.3,
+      "seasonal_naive": 31.0
+    },
+    "stays": {
+      "holt_winters": 29.5,
+      "seasonal_naive": 38.5
+    },
+    "room_nights": {
+      "holt_winters": 24.2,
+      "seasonal_naive": 34.1
+    },
+    "revenue_eur": {
+      "holt_winters": 26.5,
+      "seasonal_naive": 34.8
+    }
+  },
+  "backtest_holdout_months": 6,
+  "total_2018_holt_winters": {
+    "bookings": {
+      "yhat": 74655.0,
+      "lo80": 51181.0,
+      "hi80": 95830.0
+    },
+    "revenue_eur": {
+      "yhat": 17129755.0,
+      "lo80": 6649319.0,
+      "hi80": 28430241.0
+    },
+    "room_nights": {
+      "yhat": 157020.0,
+      "lo80": 104425.0,
+      "hi80": 203922.0
+    },
+    "stays": {
+      "yhat": 44609.0,
+      "lo80": 29628.0,
+      "hi80": 58297.0
+    }
+  },
+  "note": "Data pra-COVID, hotel di Portugal, hanya 2 siklus musiman. Angka 2018 adalah ekstrapolasi — perlakukan sebagai rentang, bukan target pasti."
+}

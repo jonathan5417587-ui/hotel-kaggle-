@@ -1,0 +1,7 @@
+streamlit>=1.50
+pandas>=2.3
+plotly>=7.0
+numpy>=1.26
+scikit-learn>=1.9
+statsmodels>=0.15
+joblib>=1.6
